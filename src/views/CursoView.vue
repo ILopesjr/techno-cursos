@@ -11,12 +11,15 @@
           <p>{{ api.descricao }}</p>
 
           <h2>Aulas</h2>
-          <ul>
+          <ul class="aulas">
             <li v-for="aula in api.aulas" :key="aula.id">
-              {{ aula.nome }}
+              <router-link :to="{ name: 'aula', params: { aula: aula.id } }">{{
+                aula.nome
+              }}</router-link>
             </li>
           </ul>
         </div>
+        <router-view></router-view>
       </div>
     </transition>
   </div>
@@ -43,5 +46,10 @@ export default {
   padding: 20px;
   margin-bottom: 10px;
   border-radius: 4px;
+}
+
+.aulas li a.router-link-active {
+  background: #4b8;
+  color: #fff;
 }
 </style>
