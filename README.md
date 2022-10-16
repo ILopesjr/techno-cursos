@@ -1,24 +1,21 @@
-# techno-cursos
+# Projeto Techno-Cursos
 
-## Project setup
-```
-npm install
-```
+Tecnologias usadas:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+• Vue2, Vue-Router, Json-Server
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Projeto de aprendizagem nas tecnológias mencionadas.
 
-### Lints and fixes files
-```
-npm run lint
-```
+Rodando o projeto:
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+• Na pasta api rodar o comando: json-server --watch api.json
+
+• Voltar na página do projeto e rodar o comando: npm run serve
+
+![alt text](https://github.com/ILopesjr/techno-cursos/blob/main/src/assets/techno-cursos-home.png?raw=true)
+
+![alt text](https://github.com/ILopesjr/techno-cursos/blob/main/src/assets/techno-cursos-cursos.png?raw=true)
+
+![alt text](https://github.com/ILopesjr/techno-cursos/blob/main/src/assets/techno-cursos-contato.png?raw=true)
+
+![alt text](https://github.com/ILopesjr/techno-cursos/blob/main/src/assets/techno-cursos-aula.png?raw=true)
