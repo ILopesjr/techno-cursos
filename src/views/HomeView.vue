@@ -18,7 +18,7 @@
             <h2>Avaliações</h2>
             <ul>
               <li v-for="avaliacao in api.avaliacoes" :key="avaliacao.nome">
-                <p>{{ avaliacao.nome }}</p>
+                <b>{{ avaliacao.nome }}</b>
                 <p>{{ avaliacao.descricao }}</p>
               </li>
             </ul>
